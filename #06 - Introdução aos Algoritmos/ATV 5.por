@@ -29,6 +29,8 @@ leia(n2)
 					senao 
 					{
 						escreva("Aluno(a): ",nome, ", que pena, você foi reprovado, com nota:", mat.arredondar(media, 2))
+
+						
 						}
 	}
 }
@@ -37,7 +39,7 @@ leia(n2)
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 730; 
+ * @POSICAO-CURSOR = 738; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

@@ -3,28 +3,26 @@ programa
 	
 	funcao inicio()
 	{
-	inteiro idade
-	escreva("Entre com sua idade:")
-	leia(idade)
-	se(idade>=18)
-	{
-		escreva("Você é maior de idade") 
+		inteiro x,tab,res
+
+		escreva("Entre com valor da tabuada:")
+		leia(tab)
+		limpa()
+
+		para(x=1;x<=10;x++)
+		{
+			res= x*tab
+			escreva ("\n",x,"X",tab, "=",res)
+			}
 	}
-	senao
-	{
-		escreva("Você não é maior de idade...")
-	}
-	
-	}
-	
-	
 }
+ 
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 98; 
+ * @POSICAO-CURSOR = 213; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

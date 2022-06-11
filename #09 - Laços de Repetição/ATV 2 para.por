@@ -3,28 +3,24 @@ programa
 	
 	funcao inicio()
 	{
-	inteiro idade
-	escreva("Entre com sua idade:")
-	leia(idade)
-	se(idade>=18)
-	{
-		escreva("Você é maior de idade") 
+	inteiro soma, i
+	soma=0
+
+	para(i = 1; i<= 500; i++){
+		se(i %2 !=0 e i%3 == 0)
+		soma+=i
 	}
-	senao
-	{
-		escreva("Você não é maior de idade...")
+	escreva (soma)
+
+		
 	}
-	
-	}
-	
-	
 }
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 98; 
+ * @POSICAO-CURSOR = 62; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
